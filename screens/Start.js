@@ -26,7 +26,7 @@ const Start = ({navigation,router}) => {
                 cancelLabel: 'Cancel'
             });
             if(biometricAuth.success){
-                navigation.navigate("Home")
+                navigation.replace("Home")
             }
         } catch (error) {
             console.log(error)

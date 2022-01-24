@@ -67,7 +67,7 @@ class HomeScreen extends Component {
           size="lg"
           icon={<Icon as={Ionicons} name="add" />}
           renderInPortal={false}
-          onPress={() => navigation.navigate("New")}
+          onPress={() => this.props.navigation.navigate("New")}
         />
       </View>
     );
